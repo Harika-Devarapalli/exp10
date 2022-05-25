@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".exp5main"
+    android:background="@color/white"
+    android:orientation="vertical">
+
+
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Gender:"
+        android:textColor="@color/black"
+        android:textSize="35dp"
+        />
+
+    <RadioGroup
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <RadioButton
+            android:id="@+id/male"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:textColor="@color/teal_200"
+            android:textSize="35dp"
+            android:text="MALE" />
+
+        <RadioButton
+            android:id="@+id/female"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/purple_200"
+            android:textSize="35dp"
+            android:text="FEMALE" />
+
+        <RadioButton
+            android:id="@+id/others"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="35dp"
+            android:textColor="@color/purple_500"
+            android:text="OTHERS">
+
+        </RadioButton>
+
+    </RadioGroup>
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Language Known are:"
+        android:textColor="#673AB7"
+        android:textSize="35dp" />
+
+    <CheckBox
+        android:id="@+id/english"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="#7FC5EA"
+        android:textSize="35dp"
+        android:text="english" />
+
+    <CheckBox
+        android:id="@+id/telugu"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="35dp"
+        android:textColor="#34A842"
+        android:text="telugu" />
+    <CheckBox
+        android:id="@+id/hindi"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="35dp"
+        android:textColor="@color/purple_700"
+        android:text="hindi"/>
+
+    <EditText
+        android:id="@+id/name2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="30dp"
+        android:ems="10"
+        android:hint="enter name"
+        android:textColor="@color/black"
+        android:textSize="35dp"
+        android:inputType="textPersonName" />
+
+</LinearLayout>

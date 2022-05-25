@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/exp2"
+
+            android:title="EXP2" />
+        <item
+            android:id="@+id/exp3"
+
+            android:title="EXP3" />
+        <item
+            android:id="@+id/exp4"
+
+            android:title="EXP4" />
+        <item
+            android:id="@+id/exp5"
+
+            android:title="EXP5" />
+        <item
+            android:id="@+id/exp6"
+
+            android:title="EXP6" />
+        <item
+            android:id="@+id/exp7"
+
+            android:title="EXP7" />
+        <item
+            android:id="@+id/exp8"
+
+            android:title="EXP8" />
+        <item
+            android:id="@+id/exp9"
+
+            android:title="EXP9" />
+
+    </group>
+</menu>
