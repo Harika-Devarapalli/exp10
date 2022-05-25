@@ -8,7 +8,7 @@
     android:layout_margin="30dp"
     android:background="#D5BBBB"
     android:padding="40dp"
-    tools:context=".MainActivity">
+    tools:context=".exp7main">
 
     <EditText
         android:id="@+id/title"

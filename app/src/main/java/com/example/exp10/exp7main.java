@@ -35,7 +35,7 @@ public class exp7main extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_main);
+        setContentView(R.layout.activity_exp7main);
 
         manager = NotificationManagerCompat.from(getApplicationContext());
         title = findViewById(R.id.title);

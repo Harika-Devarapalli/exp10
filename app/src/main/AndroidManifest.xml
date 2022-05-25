@@ -12,7 +12,8 @@
         android:theme="@style/Theme.Exp10">
         <activity
             android:name=".exp7main"
-            android:exported="false" />
+            android:exported="false"
+            android:theme="@style/Theme.Exp10.NoActionBar"/>
         <activity
             android:name=".exp4main"
             android:exported="false"
@@ -25,12 +26,8 @@
             android:name=".exp6main"
             android:exported="false"
             android:theme="@style/Theme.Exp10.NoActionBar" />
-        <activity
-            android:name=".exp7main"
-            android:exported="false"
-            android:theme="@style/Theme.Exp10.NoActionBar"
-            tools:ignore="DuplicateActivity,MissingClass" />
-        <receiver android:name=".NotificationReceiver"/>
+
+
         <activity
             android:name=".exp9main"
             android:exported="false"
@@ -44,7 +41,7 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-
+        <receiver android:name=".NotificationReceiver"/>
     </application>
 
 </manifest>
